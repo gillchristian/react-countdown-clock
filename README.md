@@ -35,7 +35,7 @@ npm install react-countdown-clock-fork
 | weight            | integer        |         | Weight of circle, in pixels                              |
 | fontSize          | integer/string | auto    | px size of font. `auto` for dynamic sizing.              |
 | font              | string         | Arial   | Font of counter                                          |
-| timeFormat        | string         | seconds | Counter style; `seconds` or `hms`                        |
+| timeFormat        | string         | seconds | Counter style; `seconds` or `hms`                        | 
 | showMilliseconds  | boolean        | true    | Show milliseconds for last 10 seconds                    |
 | onComplete        | func           |         | Callback when time completes                             |
 | restartOnNewProps | boolean        | true    | Restart timer when new props are passed to the component |

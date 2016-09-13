@@ -21,7 +21,7 @@ module.exports = React.createClass
     timeFormat: React.PropTypes.string
     onComplete: React.PropTypes.func
     showMilliseconds: React.PropTypes.bool
-    restartOnNewProps: React.PropTypes.number
+    restartOnNewProps: React.PropTypes.bool
 
   getDefaultProps: ->
     seconds: 60
