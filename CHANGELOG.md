@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.10.0 - Sept 12, 2016
+  * Add `restartOnNewProps` prop.
+
 ## 1.0.9 - Aug 31, 2016
   * Fix invalid react proptype for showMilliseconds. Thanks @sabazusi.
 

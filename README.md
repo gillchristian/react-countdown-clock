@@ -2,8 +2,6 @@
 
 A HTML 5 canvas countdown clock as a React component.
 
-![Screenshot](http://pughpugh.github.io/react-countdown-clock/screenshot.png?=0)
-
 ## Demo
 
 [pughpugh.github.io/react-countdown-clock](http://pughpugh.github.io/react-countdown-clock)
@@ -11,17 +9,19 @@ A HTML 5 canvas countdown clock as a React component.
 ## Installation
 
 ```
-npm install react-countdown-clock
+npm install react-countdown-clock-fork
 ```
 
 ## Usage
 
 ```javascript
-<ReactCountdownClock seconds={60}
-                     color="#000"
-                     alpha={0.9}
-                     size={300}
-                     onComplete={myCallback} />
+<ReactCountdownClock
+  seconds={60}
+  color="#000"
+  alpha={0.9}
+  size={300}
+  onComplete={myCallback}
+/>
 ```
 
 ## Props
@@ -35,18 +35,11 @@ npm install react-countdown-clock
 | weight            | integer        |         | Weight of circle, in pixels                              |
 | fontSize          | integer/string | auto    | px size of font. `auto` for dynamic sizing.              |
 | font              | string         | Arial   | Font of counter                                          |
-| timeFormat        | string         | seconds | Counter style; `seconds` or `hms`                        | 
+| timeFormat        | string         | seconds | Counter style; `seconds` or `hms`                        |
 | showMilliseconds  | boolean        | true    | Show milliseconds for last 10 seconds                    |
 | onComplete        | func           |         | Callback when time completes                             |
 | restartOnNewProps | boolean        | true    | Restart timer when new props are passed to the component |
 
-## Bugs & Contributions
+##Note
 
-Bugs, features and pull requests always welcome.
-
-[github.com/pughpugh/react-countdown-clock/issues](https://github.com/pughpugh/react-countdown-clock/issues)
-
-Also, it's always just nice to hear how people are using it. Feel free to get in touch.
-
-* Email: [hugh@hcgallagher.co.uk](mailto:hugh@hcgallagher.co.uk)
-* Web: [www.hughgallagher.co.uk](http://www.hughgallagher.co.uk/)
+This is a temporary fork. Please refer to the [original repo](https://github.com/pughpugh/react-countdown-clock).
